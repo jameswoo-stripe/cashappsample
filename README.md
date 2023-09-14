@@ -23,8 +23,9 @@ The size of the apk with Stripe is roughly 2.5 MB:
 - classes.dex ~ 1.7 MB
 - res ~ 400 KB
 
-The total differential is approximately 2 MB. Again, this number is largely dependent on any shared dependencies between Stripe and whichever dependencies you are using in your app.
+The total differential is approximately 1.7 MB (1 MB class size + 700 KB resource size). Again, this number is largely dependent on any shared dependencies between Stripe and whichever dependencies you are using in your app.
 
-Below is a screenshot for reference:
+
+Below is a screenshot for reference (left is without Stripe, right is with Stripe):
 
 <img src="./sizes.png" />
