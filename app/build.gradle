@@ -35,8 +35,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
-            shrinkResources true
+            minifyEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -61,8 +61,8 @@ android {
 }
 
 dependencies {
-//    implementation 'com.stripe:payments-core:20.30.2'
-//    implementation 'com.stripe:payments-model:20.30.2'
+    implementation 'com.stripe:payments-core:20.30.2'
+    implementation 'com.stripe:payments-model:20.30.2'
 
     implementation 'com.github.kittinunf.fuel:fuel-android:2.3.1'
     implementation 'com.github.kittinunf.fuel:fuel-gson:2.3.1'
